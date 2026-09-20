@@ -1,0 +1,57 @@
+{
+  "asin": "B0GCZFMWFM",
+  "marketplace": "US",
+  "timezone": "America/Los_Angeles",
+  "reportDate": "2026-09-08",
+  "comparisonDate": "2026-09-07",
+  "samplingTimes": ["08:00", "12:00"],
+  "requestedEdition": "auto",
+  "enhancementScopeMatch": true,
+  "dataQuality": "A",
+  "evidenceLevel": "中",
+  "keywords": ["raised toilet seat", "toilet seat riser"],
+  "rows": [
+    {
+      "keyword": "raised toilet seat",
+      "samples": [
+        {"time": "08:00", "observedPrevious": true, "observedCurrent": true, "organic": {"previous": {"page": 1, "rank": 24}, "current": {"page": 1, "rank": 21}}, "ad": {"previous": {"page": 1, "rank": 4}, "current": {"page": 1, "rank": 3}}},
+        {"time": "12:00", "observedPrevious": true, "observedCurrent": true, "organic": {"previous": {"page": 1, "rank": 22}, "current": {"page": 1, "rank": 20}}, "ad": {"previous": null, "current": {"page": 1, "rank": 3}}}
+      ]
+    },
+    {
+      "keyword": "toilet seat riser",
+      "samples": [
+        {"time": "08:00", "observedPrevious": true, "observedCurrent": true, "organic": {"previous": {"page": 1, "rank": 14}, "current": {"page": 1, "rank": 13}}, "ad": {"previous": null, "current": null}},
+        {"time": "12:00", "observedPrevious": true, "observedCurrent": true, "organic": {"previous": {"page": 1, "rank": 11}, "current": {"page": 1, "rank": 12}}, "ad": {"previous": {"page": 1, "rank": 4}, "current": null}}
+      ]
+    }
+  ],
+  "sources": [
+    {"sourceId": "rank_hourly", "role": "basic", "status": "success", "tool": "get_asin_keyword_rank_hourly", "readAt": "2026-09-09T01:25:00Z", "scope": "US | ASIN | keyword | local hour"},
+    {"sourceId": "sif_traffic", "role": "enhancement", "status": "success", "tool": "sifv2_asinOpTrafficTrend", "readAt": "2026-09-09T01:25:00Z", "scope": "US | ASIN | closed day"},
+    {"sourceId": "sif_keywords", "role": "enhancement", "status": "success", "tool": "sifv2_asinKeywordsSimpleGroupByWeekly", "readAt": "2026-09-09T01:25:00Z", "scope": "US | ASIN | closed week"}
+  ],
+  "sif": {
+    "latestDate": "2026-09-07",
+    "previousDate": "2026-09-06",
+    "scopeMatch": true,
+    "total": {"previous": 2321.5, "current": 2863.3},
+    "natural": {"previous": 1331.2, "current": 1283.6},
+    "ad": {"previous": 990.2, "current": 1579.7},
+    "sp": {"previous": 636.9, "current": 1322.1},
+    "mainBsr": {"previous": 36330, "current": 30490},
+    "subBsr": {"previous": 18, "current": 17},
+    "buyboxPrice": 94.99,
+    "primePrice": 59.99,
+    "review": {"previous": 159, "current": 160},
+    "star": 4.3,
+    "renderFooter": null
+  },
+  "monitorCandidates": ["elevated toilet seat"],
+  "analysis": {
+    "diagnosis": "自然位整体稳定，广告位出现新增与消失并存，更像分时投放连续性波动。",
+    "actions": ["午间复核广告预算和分时设置。", "保护核心词自然位，暂不大改 Listing。"],
+    "limitations": ["美国当天尚未结束，SIF 使用最新闭合日。"]
+  },
+  "generatedAt": "2026-09-09 09:25"
+}

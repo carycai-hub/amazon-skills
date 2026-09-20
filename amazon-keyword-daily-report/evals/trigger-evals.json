@@ -1,0 +1,35 @@
+[
+  {
+    "query": "帮我生成 B0GCZFMWFM 的关键词排名日报，关键词我随后发你。",
+    "should_trigger": true
+  },
+  {
+    "query": "查这个 ASIN 的五个关键词在 08:00、12:00、14:00、17:00 的自然位和广告位，输出 HTML 和截图。",
+    "should_trigger": true
+  },
+  {
+    "query": "调用关键词日报 Skill。",
+    "should_trigger": true
+  },
+  {
+    "query": "给这个产品跑一次西柚排名加 SIF 流量归因日报。",
+    "should_trigger": true
+  },
+  {
+    "query": "分析一下这个广告搜索词报表并帮我调整竞价。",
+    "should_trigger": false
+  },
+  {
+    "query": "把这份已经生成的 HTML 上传到企业微信群。",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我优化 Amazon Listing 的标题和五点描述。",
+    "should_trigger": false
+  },
+  {
+    "query": "查一下 raised toilet seat 现在的即时搜索排名，只要告诉我数字。",
+    "should_trigger": false
+  }
+]
+

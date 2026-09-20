@@ -1,0 +1,18 @@
+interface:
+  display_name: "亚马逊关键词排名日报"
+  short_description: "查询 ASIN 关键词小时自然位和广告位，输出 HTML 日报与截图。"
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "xydc-mcp"
+      description: "基础来源：查询 ASIN 在关键词下的小时自然位和广告位。"
+    - type: "mcp"
+      value: "sif-v2"
+      description: "可选增强：查询最新闭合日流量趋势和周流量词。"
+    - type: "mcp"
+      value: "sellersprite-universal"
+      description: "可选展示：按 ASIN 和站点查询产品主图；失败时报告显示主图暂缺。"
